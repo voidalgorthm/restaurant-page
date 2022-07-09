@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "webpack",
     "dev": "webpack serve"
   },
   "repository": {
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/voidalgorthm/restaurant-page.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "codexeger",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/voidalgorthm/restaurant-page/issues"
