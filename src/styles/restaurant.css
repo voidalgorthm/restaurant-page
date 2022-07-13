@@ -1,5 +1,6 @@
 :root {
     font-size: 62.5%;
+    --general-bgcolor: #bc002d;
 }
 
 *,
@@ -12,19 +13,26 @@
 }
 
 div#content {
+    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
     display: flex;
     flex: 1;
     flex-direction: column;
-    min-height: 100vh;
+    align-items: center;
 }
 
 header {
-    background-image: radial-gradient(circle at bottom left, #bc002d 60px, white 60px);
+    width: 100%;
+    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px);
     min-height: 10vh;
     font-size: 2.5rem;
 }
 
 nav {
+    width: 100%;
     background-color: blue;
     min-height: 10vh;
     display: grid;
@@ -32,13 +40,18 @@ nav {
 }
 
 main {
-    background-color: brown;
+    background-color: var(--general-bgcolor);
+    width: 85%;
+    margin: 1% 0;
+    border-radius: 1rem;
+    opacity: 50%;
     display: flex;
     flex: 1;
 }
 
 footer {
-    background-color: green;
+    width: 100%;
+    background-color: burlywood;
     min-height: 5vh;
     font-size: 1.6rem;
     display: grid;
