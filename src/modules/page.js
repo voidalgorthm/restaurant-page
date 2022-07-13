@@ -33,6 +33,7 @@ const loadPage = (() => {
   const _createMain = (id) => {
     const main = document.createElement('main');
     main.setAttribute('id', id);
+    main.classList.add('border');
     return main;
   }
 
@@ -45,9 +46,8 @@ const loadPage = (() => {
     return footer;
   }
 
-
   const content = document.getElementById('content');
-  const header = _createHeader('header', 'Japanese Dishes');
+  const header = _createHeader('header', 'Tsukiji');
   content.appendChild(header);
   const nav = _createNav('nav');
   content.appendChild(nav);

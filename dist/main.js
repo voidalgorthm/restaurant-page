@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\ndiv#content {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    background-color: blue;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: var(--general-bgcolor);\n    width: 85%;\n    margin: 1% 0;\n    border-radius: 1rem;\n    opacity: 50%;\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    font-size: 1.6rem;\n    display: grid;\n    place-items: center;\n}", "",{"version":3,"sources":["webpack://./src/styles/restaurant.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;IAChB,0BAA0B;AAC9B;;AAEA;;;IAGI,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA;IACI,mDAA+D;IAC/D,4BAA4B;IAC5B,2BAA2B;IAC3B,sBAAsB;IACtB,iBAAiB;IACjB,aAAa;IACb,OAAO;IACP,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,wFAAwF;IACxF,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,WAAW;IACX,sBAAsB;IACtB,gBAAgB;IAChB,aAAa;IACb,kCAAkC;AACtC;;AAEA;IACI,wCAAwC;IACxC,UAAU;IACV,YAAY;IACZ,mBAAmB;IACnB,YAAY;IACZ,aAAa;IACb,OAAO;AACX;;AAEA;IACI,WAAW;IACX,2BAA2B;IAC3B,eAAe;IACf,iBAAiB;IACjB,aAAa;IACb,mBAAmB;AACvB","sourcesContent":[":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\ndiv#content {\n    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    background-color: blue;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: var(--general-bgcolor);\n    width: 85%;\n    margin: 1% 0;\n    border-radius: 1rem;\n    opacity: 50%;\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    font-size: 1.6rem;\n    display: grid;\n    place-items: center;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 10rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh1 {\n    /* font-size: 2.5rem; */\n}\n\nh2 {\n    font-size: 2rem;\n}\n\nh4 {\n    font-size: 1.4rem;\n}\n\np {\n    font-size: 1.8rem;\n}\n\ndiv#content {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 1% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n}\n\n.border {\n    padding: 3rem;\n    border-radius: 2rem;\n    -webkit-backdrop-filter: blur(.5rem);\n    backdrop-filter: blur(.5rem);\n}\n\n.flex-column {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-evenly;\n}\n\n.flex-center {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n}\n\narticle {\n    width: 100%;\n}\n\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);\n}", "",{"version":3,"sources":["webpack://./src/styles/restaurant.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;IAChB,0BAA0B;IAC1B,mCAAmC;;IAEnC,iBAAiB;AACrB;;AAEA;;;IAGI,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA;IACI,uBAAuB;AAC3B;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,mDAA+D;IAC/D,4BAA4B;IAC5B,2BAA2B;IAC3B,sBAAsB;IACtB,iBAAiB;IACjB,aAAa;IACb,OAAO;IACP,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,YAAY;IACZ,wFAAwF;IACxF,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,WAAW;IACX,gBAAgB;IAChB,aAAa;IACb,kCAAkC;AACtC;;AAEA;IACI,uCAAuC;IACvC,YAAY;IACZ,UAAU;IACV,YAAY;IACZ,wCAAwC;IACxC,aAAa;IACb,OAAO;AACX;;AAEA;IACI,WAAW;IACX,2BAA2B;IAC3B,eAAe;IACf,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,oCAAoC;IACpC,4BAA4B;AAChC;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,6BAA6B;AACjC;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,aAAa;IACb,sEAAsE;IACtE,mEAAmE;AACvE;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,qCAAqC;IACrC,uCAAuC;IACvC,+EAA+E;AACnF","sourcesContent":[":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 10rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh1 {\n    /* font-size: 2.5rem; */\n}\n\nh2 {\n    font-size: 2rem;\n}\n\nh4 {\n    font-size: 1.4rem;\n}\n\np {\n    font-size: 1.8rem;\n}\n\ndiv#content {\n    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 1% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n}\n\n.border {\n    padding: 3rem;\n    border-radius: 2rem;\n    -webkit-backdrop-filter: blur(.5rem);\n    backdrop-filter: blur(.5rem);\n}\n\n.flex-column {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-evenly;\n}\n\n.flex-center {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n}\n\narticle {\n    width: 100%;\n}\n\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -583,11 +583,44 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-function displayHome() {
-  return "home";
-}
+const loadHome = (() => {
+  const _createParagraph = (text) => {
+    const p = document.createElement('p');
+    p.textContent = text;
+    // p.classList.add('p-home');
+    return p;
+  }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (displayHome);
+  const _createContainer = (element) => {
+    const container = document.createElement('div');
+    container.classList.add('flex-center');
+    container.classList.add('border');
+    container.classList.add('container');
+    container.appendChild(element);
+    return container;
+  }
+
+  const main = document.querySelector('main');
+  const home = document.createElement('article');
+  home.classList.add('home');
+  home.classList.add('flex-column');
+  const title = document.createElement('h2');
+  title.textContent = 'Japanese Dishes to try in Tokyo!';
+  const p1 = _createParagraph('Japanese cuisine is world-famous, but there is so much food in Japan to try besides sushi! Of course, many of us also know of sashimi, tempura, and ramen. Yet Japanese food culture is much richer than that.');
+  const p2 = _createParagraph('So when visiting the country, what food in Japan should be on your bucket list? To help you decide, we\'ve compiled this list of 32 tasty Japanese foods that everyone needs to try.');
+
+  const div1 = _createContainer(title);
+  const div2 = _createContainer(p1);
+  const div3 = _createContainer(p2);
+
+  home.appendChild(div1);
+  home.appendChild(div2);
+  home.appendChild(div3);
+
+  main.appendChild(home);
+})();
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadHome);
 
 /***/ }),
 
@@ -636,6 +669,7 @@ const loadPage = (() => {
   const _createMain = (id) => {
     const main = document.createElement('main');
     main.setAttribute('id', id);
+    main.classList.add('border');
     return main;
   }
 
@@ -648,9 +682,8 @@ const loadPage = (() => {
     return footer;
   }
 
-
   const content = document.getElementById('content');
-  const header = _createHeader('header', 'Japanese Dishes');
+  const header = _createHeader('header', 'Tsukiji');
   content.appendChild(header);
   const nav = _createNav('nav');
   content.appendChild(nav);
@@ -822,8 +855,21 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-_modules_page__WEBPACK_IMPORTED_MODULE_0__["default"];
-console.log((0,_modules_home__WEBPACK_IMPORTED_MODULE_1__["default"])());
+init();
+
+function addEvents() {
+  const homeBtn = document.querySelector('#home');
+  const menuBtn = document.querySelector('#menu');
+  const contactBtn = document.querySelector('#contact');
+
+  homeBtn.addEventListener('click', _modules_home__WEBPACK_IMPORTED_MODULE_1__["default"]);
+};
+
+function init() {
+  addEvents();
+  _modules_page__WEBPACK_IMPORTED_MODULE_0__["default"];
+  _modules_home__WEBPACK_IMPORTED_MODULE_1__["default"];
+};
 })();
 
 /******/ })()
