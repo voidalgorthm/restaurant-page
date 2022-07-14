@@ -5,6 +5,7 @@ const loadPage = (() => {
     const text = document.createElement('h1');
     text.textContent = txt;
     header.appendChild(text);
+    header.classList.add('flex-center');
     return header;
   }
 
@@ -43,10 +44,11 @@ const loadPage = (() => {
     const text = document.createElement('h4');
     text.textContent = txt;
     footer.appendChild(text);
+    footer.classList.add('flex-center');
     return footer;
   }
 
-  const content = document.getElementById('content');
+  const content = document.querySelector('#content');
   const header = _createHeader('header', 'Tsukiji');
   content.appendChild(header);
   const nav = _createNav('nav');

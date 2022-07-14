@@ -1,4 +1,7 @@
 const loadHome = (() => {
+  const main = document.querySelector('main');
+  main.replaceChildren();
+
   const _createParagraph = (text) => {
     const p = document.createElement('p');
     p.textContent = text;
@@ -15,9 +18,7 @@ const loadHome = (() => {
     return container;
   }
 
-  const main = document.querySelector('main');
   const home = document.createElement('article');
-  home.classList.add('home');
   home.classList.add('flex-column');
   const title = document.createElement('h2');
   title.textContent = 'Japanese Dishes to try in Tokyo!';
@@ -33,6 +34,6 @@ const loadHome = (() => {
   home.appendChild(div3);
 
   main.appendChild(home);
-})();
+});
 
 export default loadHome;

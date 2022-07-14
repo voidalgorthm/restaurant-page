@@ -15,16 +15,8 @@
     text-align: center;
 }
 
-h1 {
-    /* font-size: 2.5rem; */
-}
-
 h2 {
-    font-size: 2rem;
-}
-
-h4 {
-    font-size: 1.4rem;
+    font-size: 3rem;
 }
 
 p {
@@ -74,13 +66,14 @@ footer {
     min-height: 5vh;
     display: grid;
     place-items: center;
+    font-size: 1.4rem;
 }
 
 .border {
     padding: 3rem;
     border-radius: 2rem;
-    -webkit-backdrop-filter: blur(.5rem);
-    backdrop-filter: blur(.5rem);
+    /* -webkit-backdrop-filter: blur(.5rem); */
+    /* backdrop-filter: blur(.5rem); */
 }
 
 .flex-column {
@@ -110,4 +103,5 @@ article {
     background-color: rgba(188, 0, 45, 1);
     border: 1px solid rgba(188, 0, 45, 0.5);
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);
+    /* backdrop-filter: none; */
 }
