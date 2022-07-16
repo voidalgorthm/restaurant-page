@@ -3,7 +3,7 @@
     --general-bgcolor: #bc002d;
     --rgba-general: rgba(188, 0, 45, 1);
 
-    --grid-min: 10rem;
+    --grid-min: 25rem;
 }
 
 *,
@@ -17,6 +17,10 @@
 
 h2 {
     font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
 }
 
 p {
@@ -54,7 +58,7 @@ main {
     background-color: rgba(188, 0, 45, 0.5);
     color: white;
     width: 85%;
-    margin: 1% 0;
+    margin: 3% 0;
     border: 1px solid rgba(188, 0, 45, 0.25);
     display: flex;
     flex: 1;
@@ -69,11 +73,17 @@ footer {
     font-size: 1.4rem;
 }
 
+article {
+    width: 100%;
+}
+
 .border {
-    padding: 3rem;
+    padding: 1rem;
     border-radius: 2rem;
-    /* -webkit-backdrop-filter: blur(.5rem); */
-    /* backdrop-filter: blur(.5rem); */
+}
+
+.border-nopadd {
+    border-radius: 2rem;
 }
 
 .flex-column {
@@ -81,6 +91,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    /* gap: 1rem; */
 }
 
 .flex-center {
@@ -92,16 +103,30 @@ footer {
 .grid-auto {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));
-    grid-template-rows: repeat(auto-fill, minmax(var(--grid-min), 1fr));
-}
-
-article {
-    width: 100%;
+    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));
+    grid-auto-rows: minmax(var(--grid-min), 1fr);
+    gap: 1rem;
 }
 
 .container {
     background-color: rgba(188, 0, 45, 1);
     border: 1px solid rgba(188, 0, 45, 0.5);
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);
-    /* backdrop-filter: none; */
+}
+
+.frame {
+    background-color: rgba(188, 0, 45, 0.75);
+    border: 1px solid rgba(188, 0, 45, 0.25);
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+}
+
+.card {
+    background-color: rgba(188, 0, 45, 0.5);
+    border: 1px solid rgba(188, 0, 45, 0.25);
+}
+
+
+.food {
+    width: 100%;
 }

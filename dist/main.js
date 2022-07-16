@@ -1,5 +1,4 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/styles/restaurant.css":
@@ -8,6 +7,7 @@
   \*************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 10rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh2 {\n    font-size: 3rem;\n}\n\np {\n    font-size: 1.8rem;\n}\n\ndiv#content {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 1% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\n.border {\n    padding: 3rem;\n    border-radius: 2rem;\n    /* -webkit-backdrop-filter: blur(.5rem); */\n    /* backdrop-filter: blur(.5rem); */\n}\n\n.flex-column {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-evenly;\n}\n\n.flex-center {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n}\n\narticle {\n    width: 100%;\n}\n\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);\n    /* backdrop-filter: none; */\n}", "",{"version":3,"sources":["webpack://./src/styles/restaurant.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;IAChB,0BAA0B;IAC1B,mCAAmC;;IAEnC,iBAAiB;AACrB;;AAEA;;;IAGI,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,mDAA+D;IAC/D,4BAA4B;IAC5B,2BAA2B;IAC3B,sBAAsB;IACtB,iBAAiB;IACjB,aAAa;IACb,OAAO;IACP,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,YAAY;IACZ,wFAAwF;IACxF,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,WAAW;IACX,gBAAgB;IAChB,aAAa;IACb,kCAAkC;AACtC;;AAEA;IACI,uCAAuC;IACvC,YAAY;IACZ,UAAU;IACV,YAAY;IACZ,wCAAwC;IACxC,aAAa;IACb,OAAO;AACX;;AAEA;IACI,WAAW;IACX,2BAA2B;IAC3B,eAAe;IACf,aAAa;IACb,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,0CAA0C;IAC1C,kCAAkC;AACtC;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,6BAA6B;AACjC;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,aAAa;IACb,sEAAsE;IACtE,mEAAmE;AACvE;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,qCAAqC;IACrC,uCAAuC;IACvC,+EAA+E;IAC/E,2BAA2B;AAC/B","sourcesContent":[":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 10rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh2 {\n    font-size: 3rem;\n}\n\np {\n    font-size: 1.8rem;\n}\n\ndiv#content {\n    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 1% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\n.border {\n    padding: 3rem;\n    border-radius: 2rem;\n    /* -webkit-backdrop-filter: blur(.5rem); */\n    /* backdrop-filter: blur(.5rem); */\n}\n\n.flex-column {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-evenly;\n}\n\n.flex-center {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n}\n\narticle {\n    width: 100%;\n}\n\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);\n    /* backdrop-filter: none; */\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh2 {\n    font-size: 3rem;\n}\n\nh3 {\n    font-size: 2.5rem;\n}\n\np {\n    font-size: 1.8rem;\n}\n\ndiv#content {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\narticle {\n    width: 100%;\n}\n\n.border {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.border-nopadd {\n    border-radius: 2rem;\n}\n\n.flex-column {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-evenly;\n    /* gap: 1rem; */\n}\n\n.flex-center {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n\n.food {\n    width: 100%;\n}", "",{"version":3,"sources":["webpack://./src/styles/restaurant.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;IAChB,0BAA0B;IAC1B,mCAAmC;;IAEnC,iBAAiB;AACrB;;AAEA;;;IAGI,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,mDAA+D;IAC/D,4BAA4B;IAC5B,2BAA2B;IAC3B,sBAAsB;IACtB,iBAAiB;IACjB,aAAa;IACb,OAAO;IACP,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,YAAY;IACZ,wFAAwF;IACxF,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,WAAW;IACX,gBAAgB;IAChB,aAAa;IACb,kCAAkC;AACtC;;AAEA;IACI,uCAAuC;IACvC,YAAY;IACZ,UAAU;IACV,YAAY;IACZ,wCAAwC;IACxC,aAAa;IACb,OAAO;AACX;;AAEA;IACI,WAAW;IACX,2BAA2B;IAC3B,eAAe;IACf,aAAa;IACb,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,6BAA6B;IAC7B,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,aAAa;IACb,sEAAsE;IACtE,wDAAwD;IACxD,4CAA4C;IAC5C,SAAS;AACb;;AAEA;IACI,qCAAqC;IACrC,uCAAuC;IACvC,+EAA+E;AACnF;;AAEA;IACI,wCAAwC;IACxC,wCAAwC;IACxC,aAAa;IACb,iCAAiC;AACrC;;AAEA;IACI,uCAAuC;IACvC,wCAAwC;AAC5C;;;AAGA;IACI,WAAW;AACf","sourcesContent":[":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh2 {\n    font-size: 3rem;\n}\n\nh3 {\n    font-size: 2.5rem;\n}\n\np {\n    font-size: 1.8rem;\n}\n\ndiv#content {\n    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\narticle {\n    width: 100%;\n}\n\n.border {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.border-nopadd {\n    border-radius: 2rem;\n}\n\n.flex-column {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-evenly;\n    /* gap: 1rem; */\n}\n\n.flex-center {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n\n.food {\n    width: 100%;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -39,6 +39,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    font-size: 62.5%;\n    --
   \*****************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /*
@@ -150,6 +151,7 @@ module.exports = function (cssWithMappingToString) {
   \********************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (url, options) {
@@ -188,6 +190,7 @@ module.exports = function (url, options) {
   \************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 module.exports = function (item) {
@@ -219,6 +222,7 @@ module.exports = function (item) {
   \***********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -273,6 +277,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
   \****************************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var stylesInDOM = [];
@@ -386,6 +391,7 @@ module.exports = function (list, options) {
   \********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 var memo = {};
@@ -434,6 +440,7 @@ module.exports = insertBySelector;
   \**********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -454,6 +461,7 @@ module.exports = insertStyleElement;
   \**********************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -475,6 +483,7 @@ module.exports = setAttributesWithoutAttributes;
   \***************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -554,6 +563,7 @@ module.exports = domAPI;
   \*********************************************************************/
 /***/ ((module) => {
 
+"use strict";
 
 
 /* istanbul ignore next  */
@@ -573,12 +583,52 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/assets/images sync \\.(png%7Cjpe?g%7Csvg)$":
+/*!*********************************************************************!*\
+  !*** ./src/assets/images/ sync nonrecursive \.(png%7Cjpe?g%7Csvg)$ ***!
+  \*********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var map = {
+	"./buta-no-shogayaki.jpg": "./src/assets/images/buta-no-shogayaki.jpg",
+	"./champon.jpg": "./src/assets/images/champon.jpg",
+	"./edamame.jpg": "./src/assets/images/edamame.jpg",
+	"./gyoza.jpg": "./src/assets/images/gyoza.jpg",
+	"./gyudon.jpg": "./src/assets/images/gyudon.jpg",
+	"./kushikatsu.jpg": "./src/assets/images/kushikatsu.jpg",
+	"./oden.jpg": "./src/assets/images/oden.jpg",
+	"./ramen.jpg": "./src/assets/images/ramen.jpg"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./src/assets/images sync \\.(png%7Cjpe?g%7Csvg)$";
+
+/***/ }),
+
 /***/ "./src/modules/contact.js":
 /*!********************************!*\
   !*** ./src/modules/contact.js ***!
   \********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -632,6 +682,7 @@ const loadContact = (() => {
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -678,12 +729,137 @@ const loadHome = (() => {
 
 /***/ }),
 
+/***/ "./src/modules/menu.js":
+/*!*****************************!*\
+  !*** ./src/modules/menu.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('../assets/images', '')] = r(item); });
+  return images;
+}
+
+const images = importAll(__webpack_require__("./src/assets/images sync \\.(png%7Cjpe?g%7Csvg)$"));
+console.log(images);
+
+class Menu {
+  constructor(label, src, desc) {
+    this.label = label;
+    this.src = src;
+    this.desc = desc;
+  }
+}
+
+const _restaurantMenu = (() => {
+  let _menu = [];
+  const getMenu = () => _menu;
+  const createFood = (label, src, desc) => {
+    const food = new Menu(label, src, desc);
+    _menu.push(food);
+  }
+  return {
+    getMenu,
+    createFood,
+  }
+})();
+
+const loadMenu = (() => {
+  const main = document.querySelector('main');
+  main.replaceChildren();
+
+  const _createFrame = (...elements) => {
+    const frame = document.createElement('div');
+    frame.classList.add('frame');
+    frame.classList.add('border-nopadd');
+    frame.classList.add('flex-column');
+    elements.forEach(item => frame.appendChild(item));
+    return frame;
+  }
+
+  const _createCard = (element) => {
+    const card = document.createElement('div');
+    card.classList.add('card');
+    card.classList.add('border');
+    card.appendChild(element);
+    return card;
+  }
+
+  const _createHolder = (element) => {
+    const holder = document.createElement('div');
+    holder.classList.add('card');
+    holder.classList.add('border-nopadd');
+    holder.appendChild(element);
+    return holder;
+  }
+
+  const _createLabel = (text) => {
+    const heading = document.createElement('h3');
+    heading.textContent = text;
+    return heading;
+  }
+
+  const _createImage = (source) => {
+    const img = document.createElement('img');
+    img.alt = `an image of ${source}`;
+    img.src = images[`./${source}`];
+    img.classList.add('food');
+    return img;
+  }
+
+  const _createParagraph = (text) => {
+    const p = document.createElement('p');
+    p.textContent = text;
+    return p;
+  }
+
+  const menu = document.createElement('article');
+  menu.classList.add('grid-auto');
+
+  _restaurantMenu.createFood('Buta-No-Shogayaki', 'buta-no-shogayaki.jpg', 'The word yaki means literally “grilled.” This dish is prepared by grilling thin slices of pork dressed with a delicate sauce of mirin, soy sauce, sake (Japanese rice wine), granola oil mixed with sliced onions, and ginger.');
+  _restaurantMenu.createFood('Champon', 'champon.jpg', 'Champon is originally from Nagasaki, as it first appeared there in a Chinese restaurant during the Meiji era (1868-1912). However, unlike the many different kinds of ramen, its noodles (specifically made for this dish) are boiled in the soup itself instead of being added later.');
+  _restaurantMenu.createFood('Edamame', 'edamame.jpg', 'A popular food in Japan. These are not yet mature soybeans, still in their pods. They can be served hot or cold (at times grilled instead of boiled) and are usually dressed only with salt. Edamame make for an amazing appetizer.');
+  _restaurantMenu.createFood('Gyoza', 'gyoza.jpg', 'Gyoza comes in several varieties in Japan. One of the most popular is "yaki-gyoza": the dumplings are prepared with a filling of minced pork meat, cabbage, garlic, onion, and ginger. They are then lightly fried until they become crunchy and of a nice dark-gold color.');
+  _restaurantMenu.createFood('Gyudon','gyudon.jpg','A bawl of steamed rice is topped with thinly sliced beef and tender onion, simmered in dashi broth (a popular Japanese ingredient) and seasoned with mirin and soy sauce. Sometimes it’s served topped with a lightly cooked egg.');
+  _restaurantMenu.createFood('Kushikatsu','kushikatsu.jpg','This dish, also known as kushiage, is crunchy deep-fried skewered meat, fish, or vegetables. The etymology refers to its preparation, with Kushi referring to the skewers used and katsu, meaning the deep frying of a cutlet of meat.');
+  _restaurantMenu.createFood('Oden','oden.jpg','Oden is a tasty, light, hot dish you’d especially enjoy on those cold winter days. This is another variety of one-pot dishes consisting of several ingredients (usually eggs, konjac, fish cakes, and daikon) served in a dashi and soy soup.');
+  _restaurantMenu.createFood('Ramen','ramen.jpg','The broth can be based on chicken, pork, beef, fish, vegetables, and flavored with soy sauce, miso, dashi, and many other seasonings. Usually, scallion, seaweed, tofu, and bamboo shoots are added, but it’s impossible to list all the different combinations in which this dish can be served.');
+  // _restaurantMenu.createFood('','','');
+
+  const menuItems = _restaurantMenu.getMenu();
+  menuItems.forEach(item => {
+    let title, visual, desc;
+    Object.entries(item).forEach(([key, value]) => {
+      switch (key) {
+        case 'label': title = _createCard(_createLabel(value)); break;
+        case 'src': visual = _createHolder(_createImage(value)); break;
+        case 'desc': desc = _createCard(_createParagraph(value)); break;
+      }
+    });
+    menu.appendChild(_createFrame(title, visual, desc));
+  });
+  main.appendChild(menu);
+});
+
+const setAttributes = (elem, attrs) => { Object.entries(attrs).forEach(([key, value]) => elem.setAttribute(key, value)); }
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenu);
+
+/***/ }),
+
 /***/ "./src/modules/page.js":
 /*!*****************************!*\
   !*** ./src/modules/page.js ***!
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -753,12 +929,101 @@ const loadPage = (() => {
 
 /***/ }),
 
+/***/ "./src/assets/images/buta-no-shogayaki.jpg":
+/*!*************************************************!*\
+  !*** ./src/assets/images/buta-no-shogayaki.jpg ***!
+  \*************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "buta-no-shogayaki.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/champon.jpg":
+/*!***************************************!*\
+  !*** ./src/assets/images/champon.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "champon.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/edamame.jpg":
+/*!***************************************!*\
+  !*** ./src/assets/images/edamame.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "edamame.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/gyoza.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/gyoza.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "gyoza.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/gyudon.jpg":
+/*!**************************************!*\
+  !*** ./src/assets/images/gyudon.jpg ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "gyudon.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/kushikatsu.jpg":
+/*!******************************************!*\
+  !*** ./src/assets/images/kushikatsu.jpg ***!
+  \******************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "kushikatsu.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/oden.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/oden.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "oden.jpg";
+
+/***/ }),
+
+/***/ "./src/assets/images/ramen.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/ramen.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "ramen.jpg";
+
+/***/ }),
+
 /***/ "./src/assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg":
 /*!*******************************************************!*\
   !*** ./src/assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg ***!
   \*******************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "yoav-aziz-tKCd-IWc4gI-unsplash.jpg";
 
 /***/ })
@@ -898,16 +1163,19 @@ module.exports = __webpack_require__.p + "yoav-aziz-tKCd-IWc4gI-unsplash.jpg";
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_page__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/page */ "./src/modules/page.js");
 /* harmony import */ var _modules_home__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/home */ "./src/modules/home.js");
-/* harmony import */ var _modules_contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/contact */ "./src/modules/contact.js");
-/* harmony import */ var _styles_restaurant_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/restaurant.css */ "./src/styles/restaurant.css");
+/* harmony import */ var _modules_menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/menu */ "./src/modules/menu.js");
+/* harmony import */ var _modules_contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/contact */ "./src/modules/contact.js");
+/* harmony import */ var _styles_restaurant_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles/restaurant.css */ "./src/styles/restaurant.css");
+
 
 
 
@@ -923,12 +1191,11 @@ function init() {
 
 function addEvents() {
   const tabs = document.querySelectorAll('.tabs');
-  const main = document.querySelector('main');
   tabs.forEach(tab => {
     switch (tab.id) {
       case 'home': tab.addEventListener('click', _modules_home__WEBPACK_IMPORTED_MODULE_1__["default"]); break;
-      // case 'menu': tab.addEventListener('click', loadMenu); break;
-      case 'contact': tab.addEventListener('click', _modules_contact__WEBPACK_IMPORTED_MODULE_2__["default"]); break;
+      case 'menu': tab.addEventListener('click', _modules_menu__WEBPACK_IMPORTED_MODULE_2__["default"]); break;
+      case 'contact': tab.addEventListener('click', _modules_contact__WEBPACK_IMPORTED_MODULE_3__["default"]); break;
     }
   });
 };
