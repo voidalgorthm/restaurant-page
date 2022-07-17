@@ -42,7 +42,8 @@ div#content {
 header {
     width: 100%;
     height: 100%;
-    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px);
+    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px), 
+    radial-gradient(circle at top right, #bc002d 60px, transparent 60px);
     min-height: 10vh;
     font-size: 2.5rem;
 }

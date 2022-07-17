@@ -26,7 +26,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh2 {\n    font-size: 3rem;\n}\n\nh3 {\n    font-size: 2.5rem;\n}\n\np {\n    font-size: 1.8rem;\n}\n\ndiv#content {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\narticle {\n    width: 100%;\n}\n\n.border {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.border-nopadd {\n    border-radius: 2rem;\n}\n\n.flex-column {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-evenly;\n    /* gap: 1rem; */\n}\n\n.flex-center {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n\n.food {\n    width: 100%;\n}", "",{"version":3,"sources":["webpack://./src/styles/restaurant.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;IAChB,0BAA0B;IAC1B,mCAAmC;;IAEnC,iBAAiB;AACrB;;AAEA;;;IAGI,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,mDAA+D;IAC/D,4BAA4B;IAC5B,2BAA2B;IAC3B,sBAAsB;IACtB,iBAAiB;IACjB,aAAa;IACb,OAAO;IACP,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,YAAY;IACZ,wFAAwF;IACxF,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,WAAW;IACX,gBAAgB;IAChB,aAAa;IACb,kCAAkC;AACtC;;AAEA;IACI,uCAAuC;IACvC,YAAY;IACZ,UAAU;IACV,YAAY;IACZ,wCAAwC;IACxC,aAAa;IACb,OAAO;AACX;;AAEA;IACI,WAAW;IACX,2BAA2B;IAC3B,eAAe;IACf,aAAa;IACb,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,6BAA6B;IAC7B,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,aAAa;IACb,sEAAsE;IACtE,wDAAwD;IACxD,4CAA4C;IAC5C,SAAS;AACb;;AAEA;IACI,qCAAqC;IACrC,uCAAuC;IACvC,+EAA+E;AACnF;;AAEA;IACI,wCAAwC;IACxC,wCAAwC;IACxC,aAAa;IACb,iCAAiC;AACrC;;AAEA;IACI,uCAAuC;IACvC,wCAAwC;AAC5C;;;AAGA;IACI,WAAW;AACf","sourcesContent":[":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh2 {\n    font-size: 3rem;\n}\n\nh3 {\n    font-size: 2.5rem;\n}\n\np {\n    font-size: 1.8rem;\n}\n\ndiv#content {\n    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\narticle {\n    width: 100%;\n}\n\n.border {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.border-nopadd {\n    border-radius: 2rem;\n}\n\n.flex-column {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-evenly;\n    /* gap: 1rem; */\n}\n\n.flex-center {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n\n.food {\n    width: 100%;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh2 {\n    font-size: 3rem;\n}\n\nh3 {\n    font-size: 2.5rem;\n}\n\np {\n    font-size: 1.8rem;\n}\n\ndiv#content {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px), \n    radial-gradient(circle at top right, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\narticle {\n    width: 100%;\n}\n\n.border {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.border-nopadd {\n    border-radius: 2rem;\n}\n\n.flex-column {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-evenly;\n    /* gap: 1rem; */\n}\n\n.flex-center {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n\n.food {\n    width: 100%;\n}", "",{"version":3,"sources":["webpack://./src/styles/restaurant.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;IAChB,0BAA0B;IAC1B,mCAAmC;;IAEnC,iBAAiB;AACrB;;AAEA;;;IAGI,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,mDAA+D;IAC/D,4BAA4B;IAC5B,2BAA2B;IAC3B,sBAAsB;IACtB,iBAAiB;IACjB,aAAa;IACb,OAAO;IACP,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,YAAY;IACZ;wEACoE;IACpE,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,WAAW;IACX,gBAAgB;IAChB,aAAa;IACb,kCAAkC;AACtC;;AAEA;IACI,uCAAuC;IACvC,YAAY;IACZ,UAAU;IACV,YAAY;IACZ,wCAAwC;IACxC,aAAa;IACb,OAAO;AACX;;AAEA;IACI,WAAW;IACX,2BAA2B;IAC3B,eAAe;IACf,aAAa;IACb,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,6BAA6B;IAC7B,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,aAAa;IACb,sEAAsE;IACtE,wDAAwD;IACxD,4CAA4C;IAC5C,SAAS;AACb;;AAEA;IACI,qCAAqC;IACrC,uCAAuC;IACvC,+EAA+E;AACnF;;AAEA;IACI,wCAAwC;IACxC,wCAAwC;IACxC,aAAa;IACb,iCAAiC;AACrC;;AAEA;IACI,uCAAuC;IACvC,wCAAwC;AAC5C;;;AAGA;IACI,WAAW;AACf","sourcesContent":[":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh2 {\n    font-size: 3rem;\n}\n\nh3 {\n    font-size: 2.5rem;\n}\n\np {\n    font-size: 1.8rem;\n}\n\ndiv#content {\n    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px), \n    radial-gradient(circle at top right, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\narticle {\n    width: 100%;\n}\n\n.border {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.border-nopadd {\n    border-radius: 2rem;\n}\n\n.flex-column {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-evenly;\n    /* gap: 1rem; */\n}\n\n.flex-center {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n\n.food {\n    width: 100%;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -760,13 +760,17 @@ class Menu {
 const _restaurantMenu = (() => {
   let _menu = [];
   const getMenu = () => _menu;
+  const clearMenu = () => _menu = [];
   const createFood = (label, src, desc) => {
+    if(_menu.some(item => item.label === label)) return;
+    
     const food = new Menu(label, src, desc);
     _menu.push(food);
   }
   return {
     getMenu,
     createFood,
+    clearMenu,
   }
 })();
 
@@ -831,8 +835,9 @@ const loadMenu = (() => {
   _restaurantMenu.createFood('Oden','oden.jpg','Oden is a tasty, light, hot dish you’d especially enjoy on those cold winter days. This is another variety of one-pot dishes consisting of several ingredients (usually eggs, konjac, fish cakes, and daikon) served in a dashi and soy soup.');
   _restaurantMenu.createFood('Ramen','ramen.jpg','The broth can be based on chicken, pork, beef, fish, vegetables, and flavored with soy sauce, miso, dashi, and many other seasonings. Usually, scallion, seaweed, tofu, and bamboo shoots are added, but it’s impossible to list all the different combinations in which this dish can be served.');
   // _restaurantMenu.createFood('','','');
-
+  
   const menuItems = _restaurantMenu.getMenu();
+  console.log(_restaurantMenu.getMenu());
   menuItems.forEach(item => {
     let title, visual, desc;
     Object.entries(item).forEach(([key, value]) => {
@@ -846,8 +851,6 @@ const loadMenu = (() => {
   });
   main.appendChild(menu);
 });
-
-const setAttributes = (elem, attrs) => { Object.entries(attrs).forEach(([key, value]) => elem.setAttribute(key, value)); }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadMenu);
 
@@ -1181,23 +1184,35 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+const addEvents = () => {
+  const tabs = document.querySelectorAll('.tabs');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', (event) => {
+      if (event.target.classList.contains('active')) return;
+
+      switch (tab.id) {
+        case 'home': (0,_modules_home__WEBPACK_IMPORTED_MODULE_1__["default"])(); changeButtonSelected(tab.id); break;
+        case 'menu': (0,_modules_menu__WEBPACK_IMPORTED_MODULE_2__["default"])(); changeButtonSelected(tab.id); break;
+        case 'contact': (0,_modules_contact__WEBPACK_IMPORTED_MODULE_3__["default"])(); changeButtonSelected(tab.id); break;
+      }
+    })
+  });
+};
+
+const changeButtonSelected = (id) => {
+  const tabs = document.querySelectorAll('.tabs');
+  tabs.forEach(button => {
+    if (button.id === id) button.classList.add('active');
+    else button.classList.remove('active');
+  });
+}
+
 init();
 
 function init() {
   addEvents();
   _modules_page__WEBPACK_IMPORTED_MODULE_0__["default"];
   (0,_modules_home__WEBPACK_IMPORTED_MODULE_1__["default"])();
-};
-
-function addEvents() {
-  const tabs = document.querySelectorAll('.tabs');
-  tabs.forEach(tab => {
-    switch (tab.id) {
-      case 'home': tab.addEventListener('click', _modules_home__WEBPACK_IMPORTED_MODULE_1__["default"]); break;
-      case 'menu': tab.addEventListener('click', _modules_menu__WEBPACK_IMPORTED_MODULE_2__["default"]); break;
-      case 'contact': tab.addEventListener('click', _modules_contact__WEBPACK_IMPORTED_MODULE_3__["default"]); break;
-    }
-  });
 };
 })();
 

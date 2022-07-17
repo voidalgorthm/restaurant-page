@@ -18,13 +18,17 @@ class Menu {
 const _restaurantMenu = (() => {
   let _menu = [];
   const getMenu = () => _menu;
+  const clearMenu = () => _menu = [];
   const createFood = (label, src, desc) => {
+    if(_menu.some(item => item.label === label)) return;
+    
     const food = new Menu(label, src, desc);
     _menu.push(food);
   }
   return {
     getMenu,
     createFood,
+    clearMenu,
   }
 })();
 
@@ -89,8 +93,9 @@ const loadMenu = (() => {
   _restaurantMenu.createFood('Oden','oden.jpg','Oden is a tasty, light, hot dish you’d especially enjoy on those cold winter days. This is another variety of one-pot dishes consisting of several ingredients (usually eggs, konjac, fish cakes, and daikon) served in a dashi and soy soup.');
   _restaurantMenu.createFood('Ramen','ramen.jpg','The broth can be based on chicken, pork, beef, fish, vegetables, and flavored with soy sauce, miso, dashi, and many other seasonings. Usually, scallion, seaweed, tofu, and bamboo shoots are added, but it’s impossible to list all the different combinations in which this dish can be served.');
   // _restaurantMenu.createFood('','','');
-
+  
   const menuItems = _restaurantMenu.getMenu();
+  console.log(_restaurantMenu.getMenu());
   menuItems.forEach(item => {
     let title, visual, desc;
     Object.entries(item).forEach(([key, value]) => {
@@ -104,7 +109,5 @@ const loadMenu = (() => {
   });
   main.appendChild(menu);
 });
-
-const setAttributes = (elem, attrs) => { Object.entries(attrs).forEach(([key, value]) => elem.setAttribute(key, value)); }
 
 export default loadMenu;
