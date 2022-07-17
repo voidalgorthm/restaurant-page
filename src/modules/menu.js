@@ -5,7 +5,6 @@ function importAll(r) {
 }
 
 const images = importAll(require.context('../assets/images/', false, /\.(png|jpe?g|svg)$/));
-console.log(images);
 
 class Menu {
   constructor(label, src, desc) {

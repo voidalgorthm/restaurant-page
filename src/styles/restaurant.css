@@ -17,14 +17,21 @@
 
 h2 {
     font-size: 3rem;
+    cursor: default;
 }
 
 h3 {
     font-size: 2.5rem;
+    cursor: default;
 }
 
 p {
     font-size: 1.8rem;
+    cursor: default;
+}
+
+button {
+    cursor: pointer;
 }
 
 div#content {
@@ -92,7 +99,12 @@ article {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    /* gap: 1rem; */
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .flex-center {
