@@ -1,3 +1,11 @@
+function importIcons(r) {
+  let icons = {};
+  r.keys().map((item, index) => { icons[item.replace('../assets/icons/', '')] = r(item); });
+  return icons;
+}
+
+const icons = importIcons(require.context('../assets/icons/', false, /\.(png|jpe?g|svg)$/));
+
 function importAll(r) {
   let images = {};
   r.keys().map((item, index) => { images[item.replace('../assets/images', '')] = r(item); });
@@ -37,25 +45,25 @@ const loadMenu = (() => {
 
   const _createFrame = (...elements) => {
     const frame = document.createElement('div');
-    frame.classList.add('frame');
-    frame.classList.add('border-nopadd');
     frame.classList.add('flex-column');
+    frame.classList.add('paddless');
+    frame.classList.add('frame');
     elements.forEach(item => frame.appendChild(item));
     return frame;
   }
 
-  const _createCard = (element) => {
+  const _createCard = (...elements) => {
     const card = document.createElement('div');
+    card.classList.add('padd');
     card.classList.add('card');
-    card.classList.add('border');
-    card.appendChild(element);
+    elements.forEach(item => card.appendChild(item));
     return card;
   }
 
   const _createHolder = (element) => {
     const holder = document.createElement('div');
+    holder.classList.add('paddless');
     holder.classList.add('card');
-    holder.classList.add('border-nopadd');
     holder.appendChild(element);
     return holder;
   }
@@ -64,6 +72,13 @@ const loadMenu = (() => {
     const heading = document.createElement('h3');
     heading.textContent = text;
     return heading;
+  }
+
+  const _createIcon = (source) => {
+    const icon = document.createElement('img');
+    icon.alt = `an icon of ${source}`;
+    icon.src = icons[`./${source}`];
+    return icon;
   }
 
   const _createImage = (source) => {
@@ -99,11 +114,12 @@ const loadMenu = (() => {
     let title, visual, desc;
     Object.entries(item).forEach(([key, value]) => {
       switch (key) {
-        case 'label': title = _createCard(_createLabel(value)); break;
+        case 'label': title = _createCard(_createIcon('food-variant-templarian.png'), _createLabel(value)); break;
         case 'src': visual = _createHolder(_createImage(value)); break;
         case 'desc': desc = _createCard(_createParagraph(value)); break;
       }
     });
+    title.classList.add('flex-row');
     menu.appendChild(_createFrame(title, visual, desc));
   });
   main.appendChild(menu);

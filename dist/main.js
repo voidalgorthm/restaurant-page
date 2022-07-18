@@ -22,11 +22,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg */ "./src/assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/yoav-aziz-tKCd-IWc4gI-unsplash-large.jpg */ "./src/assets/yoav-aziz-tKCd-IWc4gI-unsplash-large.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh2 {\n    font-size: 3rem;\n    cursor: default;\n}\n\nh3 {\n    font-size: 2.5rem;\n    cursor: default;\n}\n\np {\n    font-size: 1.8rem;\n    cursor: default;\n}\n\nbutton {\n    cursor: pointer;\n}\n\ndiv#content {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px), \n    radial-gradient(circle at top right, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\narticle {\n    width: 100%;\n}\n\n.border {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.border-nopadd {\n    border-radius: 2rem;\n}\n\n.flex-column {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-evenly;\n}\n\n.flex-row {\n    display: flex;\n    align-items: center;\n    justify-content: space-evenly;\n}\n\n.flex-center {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n\n.food {\n    width: 100%;\n}", "",{"version":3,"sources":["webpack://./src/styles/restaurant.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;IAChB,0BAA0B;IAC1B,mCAAmC;;IAEnC,iBAAiB;AACrB;;AAEA;;;IAGI,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA;IACI,eAAe;IACf,eAAe;AACnB;;AAEA;IACI,iBAAiB;IACjB,eAAe;AACnB;;AAEA;IACI,iBAAiB;IACjB,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,mDAA+D;IAC/D,4BAA4B;IAC5B,2BAA2B;IAC3B,sBAAsB;IACtB,iBAAiB;IACjB,aAAa;IACb,OAAO;IACP,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,YAAY;IACZ;wEACoE;IACpE,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,WAAW;IACX,gBAAgB;IAChB,aAAa;IACb,kCAAkC;AACtC;;AAEA;IACI,uCAAuC;IACvC,YAAY;IACZ,UAAU;IACV,YAAY;IACZ,wCAAwC;IACxC,aAAa;IACb,OAAO;AACX;;AAEA;IACI,WAAW;IACX,2BAA2B;IAC3B,eAAe;IACf,aAAa;IACb,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,6BAA6B;AACjC;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,6BAA6B;AACjC;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,uBAAuB;AAC3B;;AAEA;IACI,aAAa;IACb,sEAAsE;IACtE,wDAAwD;IACxD,4CAA4C;IAC5C,SAAS;AACb;;AAEA;IACI,qCAAqC;IACrC,uCAAuC;IACvC,+EAA+E;AACnF;;AAEA;IACI,wCAAwC;IACxC,wCAAwC;IACxC,aAAa;IACb,iCAAiC;AACrC;;AAEA;IACI,uCAAuC;IACvC,wCAAwC;AAC5C;;;AAGA;IACI,WAAW;AACf","sourcesContent":[":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh2 {\n    font-size: 3rem;\n    cursor: default;\n}\n\nh3 {\n    font-size: 2.5rem;\n    cursor: default;\n}\n\np {\n    font-size: 1.8rem;\n    cursor: default;\n}\n\nbutton {\n    cursor: pointer;\n}\n\ndiv#content {\n    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    min-height: 100vh;\n    display: flex;\n    flex: 1;\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px), \n    radial-gradient(circle at top right, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n    font-size: 2.5rem;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\narticle {\n    width: 100%;\n}\n\n.border {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.border-nopadd {\n    border-radius: 2rem;\n}\n\n.flex-column {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-evenly;\n}\n\n.flex-row {\n    display: flex;\n    align-items: center;\n    justify-content: space-evenly;\n}\n\n.flex-center {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n\n.food {\n    width: 100%;\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh1,\nh2,\nh3,\nh5,\np {\n    cursor: default;\n}\n\nh1 {\n    font-size: 4rem;\n}\n\nh2 {\n    font-size: 3.5rem;\n}\n\nh3 {\n    font-size: 2.5rem;\n}\n\nh5 {\n    font-size: 1.2rem;\n}\n\np {\n    font-size: 1.8rem;\n    cursor: default;\n}\n\nbutton {\n    cursor: pointer;\n}\n\ndiv#content {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    background-attachment: fixed;\n    min-height: 100vh;\n    display: flex;\n    /* flex: 1; */\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px),\n        radial-gradient(circle at top right, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\narticle {\n    width: 100%;\n}\n\n.flex-center,\n.flex-column,\n.flex-row {\n    display: flex;\n    align-items: center;\n\n}\n\n.flex-center {\n    justify-content: center;\n}\n\n.flex-column {\n    justify-content: space-evenly;\n    flex-direction: column;\n}\n\n.flex-row {\n    justify-content: space-between;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.padd {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.paddless {\n    border-radius: 2rem;\n}\n\n.gap {\n    gap: 1rem;\n}\n\n.head {\n    background-color: rgba(254, 106, 40, 0.75);\n    border: 1px solid rgba(254, 106, 40, 0.5);\n    width: 20rem;\n    height: 8rem;\n    margin: 1% 0;\n    clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);\n}\n\n.section,\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n}\n\n.container {\n    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 85%, 95% 90%, 85% 90%, 85% 100%, 70% 90%, 5% 90%, 0% 85%, 0% 5%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n.food {\n    width: 100%;\n}\n\n.map {\n    width: min(60rem, 100%);\n}", "",{"version":3,"sources":["webpack://./src/styles/restaurant.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;IAChB,0BAA0B;IAC1B,mCAAmC;;IAEnC,iBAAiB;AACrB;;AAEA;;;IAGI,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA;;;;;IAKI,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;IACjB,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,mDAAqE;IACrE,4BAA4B;IAC5B,2BAA2B;IAC3B,sBAAsB;IACtB,4BAA4B;IAC5B,iBAAiB;IACjB,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,YAAY;IACZ;4EACwE;IACxE,gBAAgB;AACpB;;AAEA;IACI,WAAW;IACX,gBAAgB;IAChB,aAAa;IACb,kCAAkC;AACtC;;AAEA;IACI,uCAAuC;IACvC,YAAY;IACZ,UAAU;IACV,YAAY;IACZ,wCAAwC;IACxC,aAAa;IACb,OAAO;AACX;;AAEA;IACI,WAAW;IACX,2BAA2B;IAC3B,eAAe;IACf,aAAa;IACb,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,WAAW;AACf;;AAEA;;;IAGI,aAAa;IACb,mBAAmB;;AAEvB;;AAEA;IACI,uBAAuB;AAC3B;;AAEA;IACI,6BAA6B;IAC7B,sBAAsB;AAC1B;;AAEA;IACI,8BAA8B;AAClC;;AAEA;IACI,aAAa;IACb,sEAAsE;IACtE,wDAAwD;IACxD,4CAA4C;IAC5C,SAAS;AACb;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,SAAS;AACb;;AAEA;IACI,0CAA0C;IAC1C,yCAAyC;IACzC,YAAY;IACZ,YAAY;IACZ,YAAY;IACZ,0FAA0F;AAC9F;;AAEA;;IAEI,qCAAqC;IACrC,uCAAuC;AAC3C;;AAEA;IACI,gHAAgH;AACpH;;AAEA;IACI,wCAAwC;IACxC,wCAAwC;IACxC,aAAa;IACb,iCAAiC;AACrC;;AAEA;IACI,uCAAuC;IACvC,wCAAwC;AAC5C;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,uBAAuB;AAC3B","sourcesContent":[":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh1,\nh2,\nh3,\nh5,\np {\n    cursor: default;\n}\n\nh1 {\n    font-size: 4rem;\n}\n\nh2 {\n    font-size: 3.5rem;\n}\n\nh3 {\n    font-size: 2.5rem;\n}\n\nh5 {\n    font-size: 1.2rem;\n}\n\np {\n    font-size: 1.8rem;\n    cursor: default;\n}\n\nbutton {\n    cursor: pointer;\n}\n\ndiv#content {\n    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash-large.jpg');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    background-attachment: fixed;\n    min-height: 100vh;\n    display: flex;\n    /* flex: 1; */\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px),\n        radial-gradient(circle at top right, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\narticle {\n    width: 100%;\n}\n\n.flex-center,\n.flex-column,\n.flex-row {\n    display: flex;\n    align-items: center;\n\n}\n\n.flex-center {\n    justify-content: center;\n}\n\n.flex-column {\n    justify-content: space-evenly;\n    flex-direction: column;\n}\n\n.flex-row {\n    justify-content: space-between;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.padd {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.paddless {\n    border-radius: 2rem;\n}\n\n.gap {\n    gap: 1rem;\n}\n\n.head {\n    background-color: rgba(254, 106, 40, 0.75);\n    border: 1px solid rgba(254, 106, 40, 0.5);\n    width: 20rem;\n    height: 8rem;\n    margin: 1% 0;\n    clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);\n}\n\n.section,\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n}\n\n.container {\n    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 85%, 95% 90%, 85% 90%, 85% 100%, 70% 90%, 5% 90%, 0% 85%, 0% 5%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n.food {\n    width: 100%;\n}\n\n.map {\n    width: min(60rem, 100%);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -583,6 +583,42 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/assets/icons sync \\.(png%7Cjpe?g%7Csvg)$":
+/*!********************************************************************!*\
+  !*** ./src/assets/icons/ sync nonrecursive \.(png%7Cjpe?g%7Csvg)$ ***!
+  \********************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var map = {
+	"./food-variant-templarian.png": "./src/assets/icons/food-variant-templarian.png",
+	"./noodles.png": "./src/assets/icons/noodles.png",
+	"./phone.png": "./src/assets/icons/phone.png",
+	"./silverware-fork-knife.png": "./src/assets/icons/silverware-fork-knife.png",
+	"./store-marker-coltonwiscombe.png": "./src/assets/icons/store-marker-coltonwiscombe.png"
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = "./src/assets/icons sync \\.(png%7Cjpe?g%7Csvg)$";
+
+/***/ }),
+
 /***/ "./src/assets/images sync \\.(png%7Cjpe?g%7Csvg)$":
 /*!*********************************************************************!*\
   !*** ./src/assets/images/ sync nonrecursive \.(png%7Cjpe?g%7Csvg)$ ***!
@@ -635,6 +671,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _assets_map_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/map.png */ "./src/assets/map.png");
 
+function importIcons(r) {
+  let icons = {};
+  r.keys().map((item, index) => { icons[item.replace('../assets/icons/', '')] = r(item); });
+  return icons;
+}
+
+const icons = importIcons(__webpack_require__("./src/assets/icons sync \\.(png%7Cjpe?g%7Csvg)$"));
 
 const loadContact = (() => {
   const main = document.querySelector('main');
@@ -649,6 +692,7 @@ const loadContact = (() => {
 
   const _createImage = (source) => {
     const img = document.createElement('img');
+    img.classList.add('map');
     img.alt = `an image of ${source}`;
     img.src = source;
     img.title = `This is a sample screenshot of a part of Google Map. 
@@ -657,28 +701,45 @@ const loadContact = (() => {
     return img;
   }
 
+  const _createIcon = (source) => {
+    const icon = document.createElement('img');
+    icon.alt = `an icon of ${source}`;
+    icon.src = icons[`./${source}`];
+    return icon;
+  }
+
   const _createContainer = (...elements) => {
     const container = document.createElement('div');
-    container.classList.add('flex-center');
     container.classList.add('flex-column');
-    container.classList.add('border');
+    container.classList.add('padd');
     container.classList.add('container');
+    container.classList.add('gap');
     elements.forEach(item => container.appendChild(item));
     return container;
   }
 
   const _createCard = (...elements) => {
     const card = document.createElement('div');
-    card.classList.add('flex-center');
     card.classList.add('flex-column');
-    card.classList.add('border');
+    card.classList.add('padd');
     card.classList.add('card');
     elements.forEach(item => card.appendChild(item));
     return card;
   }
 
+  const _createSection = (...elements) => {
+    const section = document.createElement('div');
+    section.classList.add('flex-row');
+    section.classList.add('padd');
+    section.classList.add('section');
+    section.classList.add('gap');
+    elements.forEach(item => section.appendChild(item));
+    return section;
+  }
+
   const contact = document.createElement('article');
   contact.classList.add('flex-column');
+  contact.classList.add('gap');
 
   const title = document.createElement('h2');
   title.textContent = 'Order Now!';
@@ -686,9 +747,10 @@ const loadContact = (() => {
   const p2 = _createParagraph('1-1 Maihama, Urayasu, Chiba 279-0031, Japan', );
   const map = _createImage(_assets_map_png__WEBPACK_IMPORTED_MODULE_0__);
 
-  const div1 = _createContainer(title);
-  const div2 = _createContainer(p1);
-  const div3 = _createCard(map, p2);
+  const div1 = _createSection(_createIcon('noodles.png'),title);
+  const div2 = _createSection(_createIcon('phone.png') , p1);
+  const address = _createSection(_createIcon('store-marker-coltonwiscombe.png') , p2);
+  const div3 = _createCard(map, address);
 
   contact.appendChild(div1);
   contact.appendChild(div2);
@@ -712,6 +774,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+function importIcons(r) {
+  let icons = {};
+  r.keys().map((item, index) => { icons[item.replace('../assets/icons/', '')] = r(item); });
+  return icons;
+}
+
+const icons = importIcons(__webpack_require__("./src/assets/icons sync \\.(png%7Cjpe?g%7Csvg)$"));
+
 const loadHome = (() => {
   const main = document.querySelector('main');
   main.replaceChildren();
@@ -723,23 +793,40 @@ const loadHome = (() => {
     return p;
   }
 
-  const _createContainer = (element) => {
+  const _createIcon = (source) => {
+    const icon = document.createElement('img');
+    icon.alt = `an icon of ${source}`;
+    icon.src = icons[`./${source}`];
+    return icon;
+  }
+
+  const _createSection = (...elements) => {
+    const section = document.createElement('div');
+    section.classList.add('flex-row');
+    section.classList.add('padd');
+    section.classList.add('section');
+    section.classList.add('gap');
+    elements.forEach(item => section.appendChild(item));
+    return section;
+  }
+
+  const _createContainer = (...elements) => {
     const container = document.createElement('div');
     container.classList.add('flex-center');
-    container.classList.add('border');
+    container.classList.add('padd');
     container.classList.add('container');
-    container.appendChild(element);
+    elements.forEach(item => container.appendChild(item));
     return container;
   }
 
   const home = document.createElement('article');
   home.classList.add('flex-column');
   const title = document.createElement('h2');
-  title.textContent = 'Japanese Dishes to try in Tokyo!';
+  title.textContent = 'Japanese Dishes You Need To Try in Tokyo!';
   const p1 = _createParagraph('Japanese cuisine is world-famous, but there is so much food in Japan to try besides sushi! Of course, many of us also know of sashimi, tempura, and ramen. Yet Japanese food culture is much richer than that.');
-  const p2 = _createParagraph('So when visiting the country, what food in Japan should be on your bucket list? To help you decide, we\'ve compiled this list of 32 tasty Japanese foods that everyone needs to try.');
+  const p2 = _createParagraph('So when visiting the country, what food in Japan should be on your bucket list? To help you decide, we\'ve compiled this list of tasty Japanese foods that everyone needs to try.');
 
-  const div1 = _createContainer(title);
+  const div1 = _createSection(_createIcon('noodles.png'), title);
   const div2 = _createContainer(p1);
   const div3 = _createContainer(p2);
 
@@ -765,6 +852,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+function importIcons(r) {
+  let icons = {};
+  r.keys().map((item, index) => { icons[item.replace('../assets/icons/', '')] = r(item); });
+  return icons;
+}
+
+const icons = importIcons(__webpack_require__("./src/assets/icons sync \\.(png%7Cjpe?g%7Csvg)$"));
+
 function importAll(r) {
   let images = {};
   r.keys().map((item, index) => { images[item.replace('../assets/images', '')] = r(item); });
@@ -804,25 +899,25 @@ const loadMenu = (() => {
 
   const _createFrame = (...elements) => {
     const frame = document.createElement('div');
-    frame.classList.add('frame');
-    frame.classList.add('border-nopadd');
     frame.classList.add('flex-column');
+    frame.classList.add('paddless');
+    frame.classList.add('frame');
     elements.forEach(item => frame.appendChild(item));
     return frame;
   }
 
-  const _createCard = (element) => {
+  const _createCard = (...elements) => {
     const card = document.createElement('div');
+    card.classList.add('padd');
     card.classList.add('card');
-    card.classList.add('border');
-    card.appendChild(element);
+    elements.forEach(item => card.appendChild(item));
     return card;
   }
 
   const _createHolder = (element) => {
     const holder = document.createElement('div');
+    holder.classList.add('paddless');
     holder.classList.add('card');
-    holder.classList.add('border-nopadd');
     holder.appendChild(element);
     return holder;
   }
@@ -831,6 +926,13 @@ const loadMenu = (() => {
     const heading = document.createElement('h3');
     heading.textContent = text;
     return heading;
+  }
+
+  const _createIcon = (source) => {
+    const icon = document.createElement('img');
+    icon.alt = `an icon of ${source}`;
+    icon.src = icons[`./${source}`];
+    return icon;
   }
 
   const _createImage = (source) => {
@@ -866,11 +968,12 @@ const loadMenu = (() => {
     let title, visual, desc;
     Object.entries(item).forEach(([key, value]) => {
       switch (key) {
-        case 'label': title = _createCard(_createLabel(value)); break;
+        case 'label': title = _createCard(_createIcon('food-variant-templarian.png'), _createLabel(value)); break;
         case 'src': visual = _createHolder(_createImage(value)); break;
         case 'desc': desc = _createCard(_createParagraph(value)); break;
       }
     });
+    title.classList.add('flex-row');
     menu.appendChild(_createFrame(title, visual, desc));
   });
   main.appendChild(menu);
@@ -891,15 +994,41 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+function importIcons(r) {
+  let icons = {};
+  r.keys().map((item, index) => { icons[item.replace('../assets/icons/', '')] = r(item); });
+  return icons;
+}
+
+const icons = importIcons(__webpack_require__("./src/assets/icons sync \\.(png%7Cjpe?g%7Csvg)$"));
+
 const loadPage = (() => {
+  const _createContainer = (...elements) => {
+    const container = document.createElement('div');
+    container.classList.add('flex-center');
+    container.classList.add('padd');
+    container.classList.add('head');
+    elements.forEach(item => container.appendChild(item));
+    return container;
+  }
+
   const _createHeader = (id, txt) => {
     const header = document.createElement('header');
     header.setAttribute('id', id);
     const text = document.createElement('h1');
     text.textContent = txt;
-    header.appendChild(text);
-    header.classList.add('flex-center');
+    const icon = _createIcon('silverware-fork-knife.png');
+    const container = _createContainer(icon, text);
+    header.appendChild(container);
+    header.classList.add('flex-column');
     return header;
+  }
+
+  const _createIcon = (source) => {
+    const icon = document.createElement('img');
+    icon.alt = `an icon of ${source}`;
+    icon.src = icons[`./${source}`];
+    return icon;
   }
 
   const _createBtn = (label) => {
@@ -927,14 +1056,14 @@ const loadPage = (() => {
   const _createMain = (id) => {
     const main = document.createElement('main');
     main.setAttribute('id', id);
-    main.classList.add('border');
+    main.classList.add('padd');
     return main;
   }
 
   const _createFooter = (id, txt) => {
     const footer = document.createElement('footer');
     footer.setAttribute('id', id);
-    const text = document.createElement('h4');
+    const text = document.createElement('h5');
     text.textContent = txt;
     footer.appendChild(text);
     footer.classList.add('flex-center');
@@ -953,6 +1082,61 @@ const loadPage = (() => {
 })();
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (loadPage);
+
+/***/ }),
+
+/***/ "./src/assets/icons/food-variant-templarian.png":
+/*!******************************************************!*\
+  !*** ./src/assets/icons/food-variant-templarian.png ***!
+  \******************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "food-variant-templarian.png";
+
+/***/ }),
+
+/***/ "./src/assets/icons/noodles.png":
+/*!**************************************!*\
+  !*** ./src/assets/icons/noodles.png ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "noodles.png";
+
+/***/ }),
+
+/***/ "./src/assets/icons/phone.png":
+/*!************************************!*\
+  !*** ./src/assets/icons/phone.png ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "phone.png";
+
+/***/ }),
+
+/***/ "./src/assets/icons/silverware-fork-knife.png":
+/*!****************************************************!*\
+  !*** ./src/assets/icons/silverware-fork-knife.png ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "silverware-fork-knife.png";
+
+/***/ }),
+
+/***/ "./src/assets/icons/store-marker-coltonwiscombe.png":
+/*!**********************************************************!*\
+  !*** ./src/assets/icons/store-marker-coltonwiscombe.png ***!
+  \**********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+module.exports = __webpack_require__.p + "store-marker-coltonwiscombe.png";
 
 /***/ }),
 
@@ -1055,14 +1239,14 @@ module.exports = __webpack_require__.p + "map.png";
 
 /***/ }),
 
-/***/ "./src/assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg":
-/*!*******************************************************!*\
-  !*** ./src/assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg ***!
-  \*******************************************************/
+/***/ "./src/assets/yoav-aziz-tKCd-IWc4gI-unsplash-large.jpg":
+/*!*************************************************************!*\
+  !*** ./src/assets/yoav-aziz-tKCd-IWc4gI-unsplash-large.jpg ***!
+  \*************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "yoav-aziz-tKCd-IWc4gI-unsplash.jpg";
+module.exports = __webpack_require__.p + "yoav-aziz-tKCd-IWc4gI-unsplash-large.jpg";
 
 /***/ })
 

@@ -1,12 +1,38 @@
+function importIcons(r) {
+  let icons = {};
+  r.keys().map((item, index) => { icons[item.replace('../assets/icons/', '')] = r(item); });
+  return icons;
+}
+
+const icons = importIcons(require.context('../assets/icons/', false, /\.(png|jpe?g|svg)$/));
+
 const loadPage = (() => {
+  const _createContainer = (...elements) => {
+    const container = document.createElement('div');
+    container.classList.add('flex-center');
+    container.classList.add('padd');
+    container.classList.add('head');
+    elements.forEach(item => container.appendChild(item));
+    return container;
+  }
+
   const _createHeader = (id, txt) => {
     const header = document.createElement('header');
     header.setAttribute('id', id);
     const text = document.createElement('h1');
     text.textContent = txt;
-    header.appendChild(text);
-    header.classList.add('flex-center');
+    const icon = _createIcon('silverware-fork-knife.png');
+    const container = _createContainer(icon, text);
+    header.appendChild(container);
+    header.classList.add('flex-column');
     return header;
+  }
+
+  const _createIcon = (source) => {
+    const icon = document.createElement('img');
+    icon.alt = `an icon of ${source}`;
+    icon.src = icons[`./${source}`];
+    return icon;
   }
 
   const _createBtn = (label) => {
@@ -34,14 +60,14 @@ const loadPage = (() => {
   const _createMain = (id) => {
     const main = document.createElement('main');
     main.setAttribute('id', id);
-    main.classList.add('border');
+    main.classList.add('padd');
     return main;
   }
 
   const _createFooter = (id, txt) => {
     const footer = document.createElement('footer');
     footer.setAttribute('id', id);
-    const text = document.createElement('h4');
+    const text = document.createElement('h5');
     text.textContent = txt;
     footer.appendChild(text);
     footer.classList.add('flex-center');

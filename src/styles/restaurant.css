@@ -15,14 +15,28 @@
     text-align: center;
 }
 
-h2 {
-    font-size: 3rem;
+h1,
+h2,
+h3,
+h5,
+p {
     cursor: default;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
 }
 
 h3 {
     font-size: 2.5rem;
-    cursor: default;
+}
+
+h5 {
+    font-size: 1.2rem;
 }
 
 p {
@@ -35,13 +49,14 @@ button {
 }
 
 div#content {
-    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash.jpg');
+    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash-large.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     min-height: 100vh;
     display: flex;
-    flex: 1;
+    /* flex: 1; */
     flex-direction: column;
     align-items: center;
 }
@@ -49,10 +64,9 @@ div#content {
 header {
     width: 100%;
     height: 100%;
-    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px), 
-    radial-gradient(circle at top right, #bc002d 60px, transparent 60px);
+    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px),
+        radial-gradient(circle at top right, #bc002d 60px, transparent 60px);
     min-height: 10vh;
-    font-size: 2.5rem;
 }
 
 nav {
@@ -85,32 +99,25 @@ article {
     width: 100%;
 }
 
-.border {
-    padding: 1rem;
-    border-radius: 2rem;
-}
-
-.border-nopadd {
-    border-radius: 2rem;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
+.flex-center,
+.flex-column,
 .flex-row {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+
 }
 
 .flex-center {
-    display: flex;
-    align-items: center;
     justify-content: center;
+}
+
+.flex-column {
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.flex-row {
+    justify-content: space-between;
 }
 
 .grid-auto {
@@ -121,10 +128,36 @@ article {
     gap: 1rem;
 }
 
+.padd {
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.paddless {
+    border-radius: 2rem;
+}
+
+.gap {
+    gap: 1rem;
+}
+
+.head {
+    background-color: rgba(254, 106, 40, 0.75);
+    border: 1px solid rgba(254, 106, 40, 0.5);
+    width: 20rem;
+    height: 8rem;
+    margin: 1% 0;
+    clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);
+}
+
+.section,
 .container {
     background-color: rgba(188, 0, 45, 1);
     border: 1px solid rgba(188, 0, 45, 0.5);
-    clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 75% 90%, 75% 100%, 60% 90%, 0 90%);
+}
+
+.container {
+    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 85%, 95% 90%, 85% 90%, 85% 100%, 70% 90%, 5% 90%, 0% 85%, 0% 5%);
 }
 
 .frame {
@@ -139,7 +172,10 @@ article {
     border: 1px solid rgba(188, 0, 45, 0.25);
 }
 
-
 .food {
     width: 100%;
+}
+
+.map {
+    width: min(60rem, 100%);
 }
