@@ -14,7 +14,6 @@ const loadContact = (() => {
   const _createParagraph = (text) => {
     const p = document.createElement('p');
     p.textContent = text;
-    // p.classList.add('p-contact');
     return p;
   }
 
@@ -36,7 +35,7 @@ const loadContact = (() => {
     return icon;
   }
 
-  const _createContainer = (...elements) => {
+  /* const _createContainer = (...elements) => {
     const container = document.createElement('div');
     container.classList.add('flex-column');
     container.classList.add('padd');
@@ -44,7 +43,7 @@ const loadContact = (() => {
     container.classList.add('gap');
     elements.forEach(item => container.appendChild(item));
     return container;
-  }
+  } */
 
   const _createCard = (...elements) => {
     const card = document.createElement('div');

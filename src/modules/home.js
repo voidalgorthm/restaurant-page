@@ -13,7 +13,6 @@ const loadHome = (() => {
   const _createParagraph = (text) => {
     const p = document.createElement('p');
     p.textContent = text;
-    // p.classList.add('p-home');
     return p;
   }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto:wght@300&display=swap');
+
 :root {
     font-size: 62.5%;
     --general-bgcolor: #bc002d;
@@ -46,6 +48,7 @@ p {
 
 button {
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
 }
 
 div#content {
@@ -55,6 +58,7 @@ div#content {
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
     display: flex;
     /* flex: 1; */
     flex-direction: column;
@@ -93,6 +97,31 @@ footer {
     display: grid;
     place-items: center;
     font-size: 1.4rem;
+}
+
+.tabs {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #FFF;
+    font-size: 4rem;
+}
+
+.tabs:hover {
+    font-weight: 900;
+    font-size: 4.3rem;
+}
+
+.active {
+    text-decoration: underline overline var(--general-bgcolor) .5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: var(--general-bgcolor);
 }
 
 article {

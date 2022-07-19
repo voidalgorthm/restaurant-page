@@ -24,9 +24,10 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/yoav-aziz-tKCd-IWc4gI-unsplash-large.jpg */ "./src/assets/yoav-aziz-tKCd-IWc4gI-unsplash-large.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto:wght@300&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh1,\nh2,\nh3,\nh5,\np {\n    cursor: default;\n}\n\nh1 {\n    font-size: 4rem;\n}\n\nh2 {\n    font-size: 3.5rem;\n}\n\nh3 {\n    font-size: 2.5rem;\n}\n\nh5 {\n    font-size: 1.2rem;\n}\n\np {\n    font-size: 1.8rem;\n    cursor: default;\n}\n\nbutton {\n    cursor: pointer;\n}\n\ndiv#content {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    background-attachment: fixed;\n    min-height: 100vh;\n    display: flex;\n    /* flex: 1; */\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px),\n        radial-gradient(circle at top right, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\narticle {\n    width: 100%;\n}\n\n.flex-center,\n.flex-column,\n.flex-row {\n    display: flex;\n    align-items: center;\n\n}\n\n.flex-center {\n    justify-content: center;\n}\n\n.flex-column {\n    justify-content: space-evenly;\n    flex-direction: column;\n}\n\n.flex-row {\n    justify-content: space-between;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.padd {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.paddless {\n    border-radius: 2rem;\n}\n\n.gap {\n    gap: 1rem;\n}\n\n.head {\n    background-color: rgba(254, 106, 40, 0.75);\n    border: 1px solid rgba(254, 106, 40, 0.5);\n    width: 20rem;\n    height: 8rem;\n    margin: 1% 0;\n    clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);\n}\n\n.section,\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n}\n\n.container {\n    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 85%, 95% 90%, 85% 90%, 85% 100%, 70% 90%, 5% 90%, 0% 85%, 0% 5%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n.food {\n    width: 100%;\n}\n\n.map {\n    width: min(60rem, 100%);\n}", "",{"version":3,"sources":["webpack://./src/styles/restaurant.css"],"names":[],"mappings":"AAAA;IACI,gBAAgB;IAChB,0BAA0B;IAC1B,mCAAmC;;IAEnC,iBAAiB;AACrB;;AAEA;;;IAGI,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA;;;;;IAKI,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;IACjB,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,mDAAqE;IACrE,4BAA4B;IAC5B,2BAA2B;IAC3B,sBAAsB;IACtB,4BAA4B;IAC5B,iBAAiB;IACjB,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,YAAY;IACZ;4EACwE;IACxE,gBAAgB;AACpB;;AAEA;IACI,WAAW;IACX,gBAAgB;IAChB,aAAa;IACb,kCAAkC;AACtC;;AAEA;IACI,uCAAuC;IACvC,YAAY;IACZ,UAAU;IACV,YAAY;IACZ,wCAAwC;IACxC,aAAa;IACb,OAAO;AACX;;AAEA;IACI,WAAW;IACX,2BAA2B;IAC3B,eAAe;IACf,aAAa;IACb,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,WAAW;AACf;;AAEA;;;IAGI,aAAa;IACb,mBAAmB;;AAEvB;;AAEA;IACI,uBAAuB;AAC3B;;AAEA;IACI,6BAA6B;IAC7B,sBAAsB;AAC1B;;AAEA;IACI,8BAA8B;AAClC;;AAEA;IACI,aAAa;IACb,sEAAsE;IACtE,wDAAwD;IACxD,4CAA4C;IAC5C,SAAS;AACb;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,SAAS;AACb;;AAEA;IACI,0CAA0C;IAC1C,yCAAyC;IACzC,YAAY;IACZ,YAAY;IACZ,YAAY;IACZ,0FAA0F;AAC9F;;AAEA;;IAEI,qCAAqC;IACrC,uCAAuC;AAC3C;;AAEA;IACI,gHAAgH;AACpH;;AAEA;IACI,wCAAwC;IACxC,wCAAwC;IACxC,aAAa;IACb,iCAAiC;AACrC;;AAEA;IACI,uCAAuC;IACvC,wCAAwC;AAC5C;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,uBAAuB;AAC3B","sourcesContent":[":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh1,\nh2,\nh3,\nh5,\np {\n    cursor: default;\n}\n\nh1 {\n    font-size: 4rem;\n}\n\nh2 {\n    font-size: 3.5rem;\n}\n\nh3 {\n    font-size: 2.5rem;\n}\n\nh5 {\n    font-size: 1.2rem;\n}\n\np {\n    font-size: 1.8rem;\n    cursor: default;\n}\n\nbutton {\n    cursor: pointer;\n}\n\ndiv#content {\n    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash-large.jpg');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    background-attachment: fixed;\n    min-height: 100vh;\n    display: flex;\n    /* flex: 1; */\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px),\n        radial-gradient(circle at top right, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\narticle {\n    width: 100%;\n}\n\n.flex-center,\n.flex-column,\n.flex-row {\n    display: flex;\n    align-items: center;\n\n}\n\n.flex-center {\n    justify-content: center;\n}\n\n.flex-column {\n    justify-content: space-evenly;\n    flex-direction: column;\n}\n\n.flex-row {\n    justify-content: space-between;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.padd {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.paddless {\n    border-radius: 2rem;\n}\n\n.gap {\n    gap: 1rem;\n}\n\n.head {\n    background-color: rgba(254, 106, 40, 0.75);\n    border: 1px solid rgba(254, 106, 40, 0.5);\n    width: 20rem;\n    height: 8rem;\n    margin: 1% 0;\n    clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);\n}\n\n.section,\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n}\n\n.container {\n    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 85%, 95% 90%, 85% 90%, 85% 100%, 70% 90%, 5% 90%, 0% 85%, 0% 5%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n.food {\n    width: 100%;\n}\n\n.map {\n    width: min(60rem, 100%);\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ":root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh1,\nh2,\nh3,\nh5,\np {\n    cursor: default;\n}\n\nh1 {\n    font-size: 4rem;\n}\n\nh2 {\n    font-size: 3.5rem;\n}\n\nh3 {\n    font-size: 2.5rem;\n}\n\nh5 {\n    font-size: 1.2rem;\n}\n\np {\n    font-size: 1.8rem;\n    cursor: default;\n}\n\nbutton {\n    cursor: pointer;\n    font-family: 'Roboto', sans-serif;\n}\n\ndiv#content {\n    background: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    background-attachment: fixed;\n    min-height: 100vh;\n    font-family: 'Roboto', sans-serif;\n    display: flex;\n    /* flex: 1; */\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px),\n        radial-gradient(circle at top right, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\n.tabs {\n    background-color: transparent;\n    border: 1px solid #000;\n    color: #FFF;\n    font-size: 4rem;\n}\n\n.tabs:hover {\n    font-weight: 900;\n    font-size: 4.3rem;\n}\n\n.active {\n    text-decoration: underline overline var(--general-bgcolor) .5rem;\n}\n\na {\n    text-decoration: none;\n    color: #000;\n}\n\na:hover {\n    color: var(--general-bgcolor);\n}\n\narticle {\n    width: 100%;\n}\n\n.flex-center,\n.flex-column,\n.flex-row {\n    display: flex;\n    align-items: center;\n\n}\n\n.flex-center {\n    justify-content: center;\n}\n\n.flex-column {\n    justify-content: space-evenly;\n    flex-direction: column;\n}\n\n.flex-row {\n    justify-content: space-between;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.padd {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.paddless {\n    border-radius: 2rem;\n}\n\n.gap {\n    gap: 1rem;\n}\n\n.head {\n    background-color: rgba(254, 106, 40, 0.75);\n    border: 1px solid rgba(254, 106, 40, 0.5);\n    width: 20rem;\n    height: 8rem;\n    margin: 1% 0;\n    clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);\n}\n\n.section,\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n}\n\n.container {\n    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 85%, 95% 90%, 85% 90%, 85% 100%, 70% 90%, 5% 90%, 0% 85%, 0% 5%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n.food {\n    width: 100%;\n}\n\n.map {\n    width: min(60rem, 100%);\n}", "",{"version":3,"sources":["webpack://./src/styles/restaurant.css"],"names":[],"mappings":"AAEA;IACI,gBAAgB;IAChB,0BAA0B;IAC1B,mCAAmC;;IAEnC,iBAAiB;AACrB;;AAEA;;;IAGI,SAAS;IACT,UAAU;IACV,sBAAsB;IACtB,kBAAkB;AACtB;;AAEA;;;;;IAKI,eAAe;AACnB;;AAEA;IACI,eAAe;AACnB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;AACrB;;AAEA;IACI,iBAAiB;IACjB,eAAe;AACnB;;AAEA;IACI,eAAe;IACf,iCAAiC;AACrC;;AAEA;IACI,mDAAqE;IACrE,4BAA4B;IAC5B,2BAA2B;IAC3B,sBAAsB;IACtB,4BAA4B;IAC5B,iBAAiB;IACjB,iCAAiC;IACjC,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,mBAAmB;AACvB;;AAEA;IACI,WAAW;IACX,YAAY;IACZ;4EACwE;IACxE,gBAAgB;AACpB;;AAEA;IACI,WAAW;IACX,gBAAgB;IAChB,aAAa;IACb,kCAAkC;AACtC;;AAEA;IACI,uCAAuC;IACvC,YAAY;IACZ,UAAU;IACV,YAAY;IACZ,wCAAwC;IACxC,aAAa;IACb,OAAO;AACX;;AAEA;IACI,WAAW;IACX,2BAA2B;IAC3B,eAAe;IACf,aAAa;IACb,mBAAmB;IACnB,iBAAiB;AACrB;;AAEA;IACI,6BAA6B;IAC7B,sBAAsB;IACtB,WAAW;IACX,eAAe;AACnB;;AAEA;IACI,gBAAgB;IAChB,iBAAiB;AACrB;;AAEA;IACI,gEAAgE;AACpE;;AAEA;IACI,qBAAqB;IACrB,WAAW;AACf;;AAEA;IACI,6BAA6B;AACjC;;AAEA;IACI,WAAW;AACf;;AAEA;;;IAGI,aAAa;IACb,mBAAmB;;AAEvB;;AAEA;IACI,uBAAuB;AAC3B;;AAEA;IACI,6BAA6B;IAC7B,sBAAsB;AAC1B;;AAEA;IACI,8BAA8B;AAClC;;AAEA;IACI,aAAa;IACb,sEAAsE;IACtE,wDAAwD;IACxD,4CAA4C;IAC5C,SAAS;AACb;;AAEA;IACI,aAAa;IACb,mBAAmB;AACvB;;AAEA;IACI,mBAAmB;AACvB;;AAEA;IACI,SAAS;AACb;;AAEA;IACI,0CAA0C;IAC1C,yCAAyC;IACzC,YAAY;IACZ,YAAY;IACZ,YAAY;IACZ,0FAA0F;AAC9F;;AAEA;;IAEI,qCAAqC;IACrC,uCAAuC;AAC3C;;AAEA;IACI,gHAAgH;AACpH;;AAEA;IACI,wCAAwC;IACxC,wCAAwC;IACxC,aAAa;IACb,iCAAiC;AACrC;;AAEA;IACI,uCAAuC;IACvC,wCAAwC;AAC5C;;AAEA;IACI,WAAW;AACf;;AAEA;IACI,uBAAuB;AAC3B","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Roboto:wght@300&display=swap');\n\n:root {\n    font-size: 62.5%;\n    --general-bgcolor: #bc002d;\n    --rgba-general: rgba(188, 0, 45, 1);\n\n    --grid-min: 25rem;\n}\n\n*,\n*::before,\n*::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-align: center;\n}\n\nh1,\nh2,\nh3,\nh5,\np {\n    cursor: default;\n}\n\nh1 {\n    font-size: 4rem;\n}\n\nh2 {\n    font-size: 3.5rem;\n}\n\nh3 {\n    font-size: 2.5rem;\n}\n\nh5 {\n    font-size: 1.2rem;\n}\n\np {\n    font-size: 1.8rem;\n    cursor: default;\n}\n\nbutton {\n    cursor: pointer;\n    font-family: 'Roboto', sans-serif;\n}\n\ndiv#content {\n    background: url('../assets/yoav-aziz-tKCd-IWc4gI-unsplash-large.jpg');\n    background-repeat: no-repeat;\n    background-position: center;\n    background-size: cover;\n    background-attachment: fixed;\n    min-height: 100vh;\n    font-family: 'Roboto', sans-serif;\n    display: flex;\n    /* flex: 1; */\n    flex-direction: column;\n    align-items: center;\n}\n\nheader {\n    width: 100%;\n    height: 100%;\n    background-image: radial-gradient(circle at bottom left, #bc002d 60px, transparent 60px),\n        radial-gradient(circle at top right, #bc002d 60px, transparent 60px);\n    min-height: 10vh;\n}\n\nnav {\n    width: 100%;\n    min-height: 10vh;\n    display: grid;\n    grid-template-columns: 1fr 1fr 1fr;\n}\n\nmain {\n    background-color: rgba(188, 0, 45, 0.5);\n    color: white;\n    width: 85%;\n    margin: 3% 0;\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: flex;\n    flex: 1;\n}\n\nfooter {\n    width: 100%;\n    background-color: burlywood;\n    min-height: 5vh;\n    display: grid;\n    place-items: center;\n    font-size: 1.4rem;\n}\n\n.tabs {\n    background-color: transparent;\n    border: 1px solid #000;\n    color: #FFF;\n    font-size: 4rem;\n}\n\n.tabs:hover {\n    font-weight: 900;\n    font-size: 4.3rem;\n}\n\n.active {\n    text-decoration: underline overline var(--general-bgcolor) .5rem;\n}\n\na {\n    text-decoration: none;\n    color: #000;\n}\n\na:hover {\n    color: var(--general-bgcolor);\n}\n\narticle {\n    width: 100%;\n}\n\n.flex-center,\n.flex-column,\n.flex-row {\n    display: flex;\n    align-items: center;\n\n}\n\n.flex-center {\n    justify-content: center;\n}\n\n.flex-column {\n    justify-content: space-evenly;\n    flex-direction: column;\n}\n\n.flex-row {\n    justify-content: space-between;\n}\n\n.grid-auto {\n    display: grid;\n    grid-template-columns: repeat(auto-fill, minmax(var(--grid-min), 1fr));\n    grid-template-rows: repeat(auto-fill, minmax(auto, 1fr));\n    grid-auto-rows: minmax(var(--grid-min), 1fr);\n    gap: 1rem;\n}\n\n.padd {\n    padding: 1rem;\n    border-radius: 2rem;\n}\n\n.paddless {\n    border-radius: 2rem;\n}\n\n.gap {\n    gap: 1rem;\n}\n\n.head {\n    background-color: rgba(254, 106, 40, 0.75);\n    border: 1px solid rgba(254, 106, 40, 0.5);\n    width: 20rem;\n    height: 8rem;\n    margin: 1% 0;\n    clip-path: polygon(15% 0%, 85% 0%, 100% 15%, 100% 85%, 85% 100%, 15% 100%, 0% 85%, 0% 15%);\n}\n\n.section,\n.container {\n    background-color: rgba(188, 0, 45, 1);\n    border: 1px solid rgba(188, 0, 45, 0.5);\n}\n\n.container {\n    clip-path: polygon(5% 0%, 95% 0%, 100% 5%, 100% 85%, 95% 90%, 85% 90%, 85% 100%, 70% 90%, 5% 90%, 0% 85%, 0% 5%);\n}\n\n.frame {\n    background-color: rgba(188, 0, 45, 0.75);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n    display: grid;\n    grid-template-rows: auto auto 1fr;\n}\n\n.card {\n    background-color: rgba(188, 0, 45, 0.5);\n    border: 1px solid rgba(188, 0, 45, 0.25);\n}\n\n.food {\n    width: 100%;\n}\n\n.map {\n    width: min(60rem, 100%);\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -686,7 +687,6 @@ const loadContact = (() => {
   const _createParagraph = (text) => {
     const p = document.createElement('p');
     p.textContent = text;
-    // p.classList.add('p-contact');
     return p;
   }
 
@@ -708,7 +708,7 @@ const loadContact = (() => {
     return icon;
   }
 
-  const _createContainer = (...elements) => {
+  /* const _createContainer = (...elements) => {
     const container = document.createElement('div');
     container.classList.add('flex-column');
     container.classList.add('padd');
@@ -716,7 +716,7 @@ const loadContact = (() => {
     container.classList.add('gap');
     elements.forEach(item => container.appendChild(item));
     return container;
-  }
+  } */
 
   const _createCard = (...elements) => {
     const card = document.createElement('div');
@@ -789,7 +789,6 @@ const loadHome = (() => {
   const _createParagraph = (text) => {
     const p = document.createElement('p');
     p.textContent = text;
-    // p.classList.add('p-home');
     return p;
   }
 
@@ -1007,21 +1006,26 @@ const loadPage = (() => {
     const container = document.createElement('div');
     container.classList.add('flex-center');
     container.classList.add('padd');
-    container.classList.add('head');
     elements.forEach(item => container.appendChild(item));
     return container;
   }
 
-  const _createHeader = (id, txt) => {
-    const header = document.createElement('header');
-    header.setAttribute('id', id);
-    const text = document.createElement('h1');
-    text.textContent = txt;
-    const icon = _createIcon('silverware-fork-knife.png');
-    const container = _createContainer(icon, text);
-    header.appendChild(container);
-    header.classList.add('flex-column');
-    return header;
+  const _createContent = (...content) => {
+    const container = document.createElement('div');
+    console.log(content);
+    content.forEach(item => container.append(item));
+    container.classList.add('flex-center');
+    container.classList.add('padd');
+    container.classList.add('gap');
+    return container;
+  }
+
+  const _createLink = (lnk, text) => {
+    const link = document.createElement('a');
+    link.href = lnk;
+    const txt = document.createTextNode(text);
+    link.appendChild(txt);
+    return link;
   }
 
   const _createIcon = (source) => {
@@ -1039,6 +1043,19 @@ const loadPage = (() => {
     return btn;
   }
 
+  const _createHeader = (id, txt) => {
+    const header = document.createElement('header');
+    header.setAttribute('id', id);
+    const text = document.createElement('h1');
+    text.textContent = txt;
+    const icon = _createIcon('silverware-fork-knife.png');
+    const container = _createContainer(icon, text);
+    container.classList.add('head');
+    header.appendChild(container);
+    header.classList.add('flex-column');
+    return header;
+  }
+
   const _createNav = (id) => {
     const nav = document.createElement('nav');
     nav.setAttribute('id', id);
@@ -1046,6 +1063,8 @@ const loadPage = (() => {
     const homeBtn = _createBtn('home');
     const menuBtn = _createBtn('menu');
     const contactBtn = _createBtn('contact');
+
+    homeBtn.classList.add('active');
 
     nav.appendChild(homeBtn);
     nav.appendChild(menuBtn);
@@ -1060,13 +1079,11 @@ const loadPage = (() => {
     return main;
   }
 
-  const _createFooter = (id, txt) => {
+  const _createFooter = (...elements) => {
     const footer = document.createElement('footer');
-    footer.setAttribute('id', id);
-    const text = document.createElement('h5');
-    text.textContent = txt;
-    footer.appendChild(text);
-    footer.classList.add('flex-center');
+    footer.setAttribute('id', 'footer');
+    footer.classList.add('flex-row');
+    elements.forEach(item => footer.appendChild(item))
     return footer;
   }
 
@@ -1077,7 +1094,11 @@ const loadPage = (() => {
   content.appendChild(nav);
   const tabContent = _createMain('tab');
   content.appendChild(tabContent);
-  const footer = _createFooter('footer', 'codexeger ©2022');
+  const creds1 = _createContent(`Icons on`, _createLink('https://materialdesignicons.com/', 'Material Design Icons'));
+  const creds2 = _createContent('Content by', _createLink('https://livejapan.com/en/in-tokyo/in-pref-tokyo/in-tsukiji/article-a0002670/','Lucio Maurizi on Live Japan'));
+  const creds3 = _createContent('Photo by', _createLink('https://unsplash.com/@yoavaziz?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText', 'Yoav Aziz'), 'on', _createLink('https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText', 'Unsplash'));
+  const creds4 = _createContent('codexeger ©2022');
+  const footer = _createFooter(creds1, creds2, creds3, creds4);
   content.appendChild(footer);
 })();
 
